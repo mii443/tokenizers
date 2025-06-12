@@ -65,7 +65,7 @@ macro_rules_attribute = "0.2.0"
 thiserror = "2"
 fancy-regex = { version = "0.14", optional = true}
 getrandom = { version = "0.2.10" }
-esaxx-rs = { version = "0.1.10", default-features = false, features=[]}
+esaxx-rs = { git = "https://github.com/mii443/esaxx-rs.git", default-features = false, features=[]}
 monostate = "0.1.12"
 
 [features]
